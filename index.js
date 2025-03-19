@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const productRoute = require('./routes/products.route');
+const detailRoute = require('./routes/details.route');
 const dotenv = require('dotenv');
 dotenv.config();  
 
@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 //Route
-app.use('/api/products',productRoute);
+app.use('/api/details',detailRoute);
 
 //Operations
 app.listen(3000, () => {
