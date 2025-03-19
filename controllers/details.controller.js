@@ -1,5 +1,5 @@
 const Detail = require('../models/details');
-
+//Controllers
 const getDetails = async(req,res) => {
     try{
         const details = await Detail.find({});

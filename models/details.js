@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+//Details Schema
 const DetailsSchema = mongoose.Schema(
     {
         name: {

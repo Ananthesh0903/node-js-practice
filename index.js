@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
-//Route
+//Routes
 app.use('/api/details',detailRoute);
 
 //Operations
