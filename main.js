@@ -3,7 +3,7 @@ app.get('/', (req, res) => {
     res.send('Node response sent');
   });
   
-  //Retrive all items
+  //Retrive all items 
   app.get('/api/products', async(req, res) => {
     try{
       const products = await Product.find({});

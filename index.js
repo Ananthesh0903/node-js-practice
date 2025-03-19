@@ -13,7 +13,7 @@ app.use('/api/details',detailRoute);
 
 //Operations
 app.listen(3000, () => {
-    console.log(`Server is runningggggg singgggggggg winggggggggg on the port 3000`);
+    console.log(`Server is running on the port 3000`);
   })
 
 
